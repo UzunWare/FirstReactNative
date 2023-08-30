@@ -19,6 +19,8 @@ const HomeScreen = ({navigation}) => {
       <Button title="Go to Counter Screen Reducers" onPress={() => navigation.navigate('CounterReducer')} />
       <Button title="Go to Text Input Screen" onPress={() => navigation.navigate('TextScreen')} />
       <Button title="Go to Password Validation Screen" onPress={() => navigation.navigate('PasswordValidation')} />
+      <Button title="Go to Box Screen" onPress={() => navigation.navigate('Box')} />
+      <Button title="Go to Box Screen Exercise" onPress={() => navigation.navigate('BoxExercise')} />
     </View>
   );
     

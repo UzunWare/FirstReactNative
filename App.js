@@ -13,6 +13,8 @@ import SquareScreenReducers from "./src/screens/SquareScreenReducers";
 import CounterScreenReducer from "./src/screens/CounterScreenReducer";
 import TextScreen from "./src/screens/TextScreen";
 import PasswordValidation from "./src/screens/PasswordValidation";
+import BoxScreen from "./src/screens/BoxScreen";
+import BoxScreenExercise from "./src/screens/BoxScreenExercise";
 
 const navigator = createStackNavigator(
   {
@@ -28,7 +30,9 @@ const navigator = createStackNavigator(
     SquareReducers: SquareScreenReducers,
     CounterReducer: CounterScreenReducer,
     TextScreen: TextScreen,
-    PasswordValidation: PasswordValidation
+    PasswordValidation: PasswordValidation,
+    Box: BoxScreen,
+    BoxExercise: BoxScreenExercise
   },
   {
     initialRouteName: "Home",
